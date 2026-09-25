@@ -82,8 +82,8 @@ h1 {
   font-weight: 500;
   line-height: 1.6;
   color: var(--ink-soft);
-  max-width: 56ch;
-  margin: 0 auto 30px;
+  max-width: 40ch;
+  margin: 0 auto 14px;
   text-align: center;
 }
 
