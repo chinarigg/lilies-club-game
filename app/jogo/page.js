@@ -119,9 +119,14 @@ export default function JogoPage() {
         <h1>quem é esse pokémon?</h1>
         <span className="underline"></span>
         <p className="lede">
-          complete uma sequência de 15 dias e ganhe cartinhas sortidas! ao completar os 15 dias, envie o print pra
-          gente no link que vai aparecer e suas cartinhas ficarão armazenadas até você solicitar o envio, ok? o
-          frete fica por sua conta!
+          complete uma sequência de 15 dias e ganhe cartinhas sortidas ✨
+          <br />
+          pode ser carta comum, rara ou full art, dependendo da disponibilidade.
+          <br />
+          <br />
+          ao completar os 15 dias, dá um alô na adm para que seja conferido tudo certinho, beleza?
+          <br />
+          suas cartinhas podem ficar armazenadas até você solicitar o envio. o frete fica por sua conta!
         </p>
 
         {authed === null && <p className="msg info">carregando…</p>}
@@ -159,7 +164,7 @@ export default function JogoPage() {
               </button>
             </form>
             <p className="msg bad">{authMsg}</p>
-            <p className="msg info">primeira vez? só digitar seu e-mail e criar um pin de 4 números já cria sua conta.</p>
+            <p className="msg info">digite seu e-mail e crie um pin de 4 dígitos numéricos para salvar seu progresso na conta.</p>
           </div>
         )}
 
