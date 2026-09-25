@@ -119,14 +119,12 @@ export default function JogoPage() {
         <h1>quem é esse pokémon?</h1>
         <span className="underline"></span>
         <p className="lede">
-          complete uma sequência de 15 dias e ganhe cartinhas sortidas ✨
-          <br />
-          pode ser carta comum, rara ou full art, dependendo da disponibilidade.
-          <br />
-          <br />
-          ao completar os 15 dias, dá um alô na adm para que seja conferido tudo certinho, beleza?
-          <br />
-          suas cartinhas podem ficar armazenadas até você solicitar o envio. o frete fica por sua conta!
+          complete uma sequência de 15 dias e ganhe cartinhas sortidas ✨ pode ser carta comum, rara ou full art,
+          dependendo da disponibilidade.
+        </p>
+        <p className="lede">
+          ao completar os 15 dias, dá um alô na adm para que seja conferido tudo certinho, beleza? suas cartinhas
+          podem ficar armazenadas até você solicitar o envio. o frete fica por sua conta!
         </p>
 
         {authed === null && <p className="msg info">carregando…</p>}
